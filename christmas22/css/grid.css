@@ -1,0 +1,26 @@
+@supports (grid-area:auto) {
+	
+	@media screen and (min-width: 400px) {
+		
+		#homePix {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 33% 34% 34%;
+			/* 90% screen - leaves spaces for grid-gap */
+			grid-template-areas:
+				"Iphone Xbox Monitor"
+				"Keyboard Headset SantaTracker";
+			justify-content: center;
+			grid-gap: 1% 1%;
+		}
+		
+		#Iphone {
+			grid-area: Iphone;
+		
+		}
+		
+	} /* End of @media */
+} /* End of @supports */
+
+
+
