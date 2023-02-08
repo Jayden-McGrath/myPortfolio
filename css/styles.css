@@ -1,0 +1,213 @@
+/* CSS Document */
+/* Color Scheme --------------------------------------------
+#E854F0
+#CA36F7
+#993DE0
+#8036F7
+#5634ED
+
+
+font-family: 'Merriweather' , serif;
+font-family: 'roboto' , sans-serif;
+font-family: 'Irish Grover', cursive;
+------------------------------------------------------------*/
+
+/* General Styles ------------------------------------------*/
+
+/***** CSS Reset ********/
+body, header, nav, footer, h1, div, img, p, ul, li, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/****** Box Model Fix *******/
+html {
+	box-sizing: border-box;
+}
+
+* , *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+	background: url('../images/wave.jpeg') top left;
+
+
+/* Create the parallax scrolling effect */
+background-attachments: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header {
+	width: 100%;
+	height: 360px;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-family: 'Irish Grover', cursive;
+	font-size: 3.5em;
+	color: #FFFFFF;
+	margin-top: -10px;
+	text-shadow: 10px 10px 15px #000000 ;
+}
+
+header h2 {
+	font-family: 'Irish Grover', cursive;
+	font-size: 3em;
+	color: #FFFFFF;
+		margin-top: -8px;
+	text-shadow: 10px 10px 15px #000000;
+	
+}
+
+
+header nav {
+	background: #00000099;
+	padding: 20px 200px 5px 0;  /*TRBL*/
+	min-meight: 75px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+	font-family:'Irish Grover', cursive;
+	font-weight: bold;
+}
+
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 0 15px;
+	font-size: 1.5em;
+}
+
+header nav a:hover {
+	color: #858585;
+	text-decoration: underline;
+}
+
+/************************ End of Header Section ***************************/
+
+/************************ Main Section ************************************/
+
+
+/************************ Projects Section ************************************/
+#projects {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #07070799;
+	font-family: 'roboto' , sans-serif;
+	font-size: 2em;
+	color: #fff;
+}
+
+#project img {
+	float: left;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+#project p {
+	margin-top: 75px;
+	justify-content: center;
+}
+/************************ End Projects Section ************************************/
+
+/*********************** About Section **************************/
+#about {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'roboto' , sans-serif;
+	font-size: 2em;
+	color: #fff;
+}
+
+#about img {
+	float: left;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+#about p {
+	margin-top: 75px;
+	justify-content: center;
+}
+
+/******************* End About Section **************************************/
+
+
+
+
+
+
+
+/************************ End Main Section ************************************/
+
+/************************* Footer Section *************************************/
+footer {
+	background: #00000099;
+		color: #fff;
+		min-height: 500px;
+		text-align: center;
+}
+
+footer nav {
+	background: #00000099;
+	padding: 10px  0;  /*TB RL*/
+	min-meight: 25px;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+footer nav li {
+	display: inline-block;
+	font-family:'Irish Grover', cursive;
+	font-weight: bold;
+	margin: 0 1em;
+}
+
+
+footer nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 0 15px;
+	font-size: 1em;
+}
+
+footer nav a:hover {
+	color: #858585;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
