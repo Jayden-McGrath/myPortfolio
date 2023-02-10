@@ -35,7 +35,7 @@ body {
 
 
 /* Create the parallax scrolling effect */
-background-attachment: fixed;
+background-attachments: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -69,7 +69,7 @@ header h2 {
 header nav {
 	background: #00000099;
 	padding: 20px 200px 5px 0;  /*TRBL*/
-	min-height: 75px;
+	min-meight: 75px;
 }
 
 header nav ul {
@@ -170,7 +170,7 @@ footer {
 footer nav {
 	background: #00000099;
 	padding: 10px  0;  /*TB RL*/
-	min-height: 25px;
+	min-meight: 25px;
 }
 
 footer nav ul {
