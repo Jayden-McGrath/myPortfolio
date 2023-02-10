@@ -1,0 +1,201 @@
+/* CSS Document */
+
+/*************************************************************
+     Font Scheme                    	
+font-family: 'Bree Serif', serif;		
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Rubik Wet Paint', cursive;
+
+
+*************************************************************/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Zeroing out spacing *********************/
+h1, h2, h3, h4, h5, h6, ul, li, a, blockquote {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/****** Header Section ********************/
+header {
+	min-height: 300px;
+	background-image: url("../images/home_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+
+header h1 {
+	margin-left: 35%;
+	color: #000000;
+	font-weight: bold;
+	font-size: 7em;
+}
+
+
+header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #F9FEFA;
+    text-align: center;
+    
+}
+
+
+.hNav {
+    padding: 5px 0;
+    background: #ffffff;
+}
+
+.hNav ul {
+    display: block;
+    padding-left: 100px;
+}
+
+.hNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.hNav a {
+    color:#16130A;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+.hNav a:hover {
+    color: #868686;
+    text-decoration: underline;
+}
+
+/****** Main Section **********************/
+main {
+    width: 60%;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.puppy {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    max-width: 400px;
+}
+
+
+.puppyL {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    max-width: 400px;
+}
+h1 {
+    
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+blockquote {
+    
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 0;
+    /*border: 1px solid black;*/
+}
+
+input {
+    height: 3em;
+    width: 20em;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color:#fff;
+    color: #00000;
+    border: 5px double #16130A;
+}
+
+.frmButton {
+    margin-left: 15px;
+    width: 10em;
+    background-color: #fff;
+}
+
+.frmButton:hover {
+    background-color: #F9FEFA;
+    color: #16130A;
+}
+
+label {
+    padding: 0 25px;
+    font-size: 2em;
+    font-weight: bold;
+}
+/****** Footer Section ********************/
+
+footer h4, footer h5, footer h6 {
+	text-align: center;
+}
+
+
+footer {
+    clear: both;
+    background-color: #16130A;
+    height: 150px;
+	color: #FFFFFF;
+}
+
+footer nav ul {
+    display: block;
+    float: right;
+}
+
+footer nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+}
+
+footer nav ul li a {
+    color: #F9FEFA;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+    
+footer nav ul li a:hover {
+    color: #424846;
+    text-decoration: underline;
+}
+
+footer p {
+    clear: right;
+    float: right;
+    color: #F9FEFA;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+    margin-right: 50px;
+}
