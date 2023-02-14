@@ -149,6 +149,56 @@ header nav a:hover {
 	justify-content: center;
 }
 
+#objective {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'roboto' , sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+}
+
+
+#education {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'roboto' , sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+}
+
+
+#activites {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'roboto' , sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+}
+
+#experience {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'roboto' , sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+}
+
 /******************* End About Section **************************************/
 
 
